@@ -1,8 +1,10 @@
 {
   "name": "@catadev/waifu-dot-pics",
   "version": "1.0.0",
-  "description": "API wrapper for waifu.pics",
+  "description": "Async API wrapper for waifu.pics",
   "main": "index.js",
+  "types": "index.d.ts",
+  "files": ["index.*", "types.*"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublishOnly": "tsc"
