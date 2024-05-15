@@ -1,0 +1,13 @@
+env:
+  browser: true
+  es2021: true
+extends: standard-with-typescript
+parserOptions:
+  ecmaVersion: latest
+rules:
+  quotes:
+    - error
+    - double
+  "@typescript-eslint/quotes":
+    - error
+    - double
