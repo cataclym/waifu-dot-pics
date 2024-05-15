@@ -1,14 +1,14 @@
-# @catadev/waifu-dot-pics
-[![npm version](https://badge.fury.io/js/@catadev/waifu-dot-pics.svg)](https://badge.fury.io/js/@catadev/waifu-dot-pics)
+# waifu-dot-pics
+[![npm version](https://badge.fury.io/js/waifu-dot-pics.svg)](https://badge.fury.io/js/waifu-dot-pics)
 
 ### Async API wrapper for [Waifu.pics](https://waifu.pics/)
 
 ## Usage
 
 ```js
-const waifuPics = require("@catadev/waifu-dot-pics").default
+const waifuPics = require("waifu-dot-pics").default
 // Or using import
-import waifuPics from "@catadev/waifu-dot-pics";
+import waifuPics from "waifu-dot-pics";
 
 // Returns one dance gif
 await waifuPics("dance");
