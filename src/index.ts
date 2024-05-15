@@ -13,7 +13,7 @@ async function waifuPics (endpoint: Endpoints, options?: { nsfw?: boolean, many?
   const many = isMany ? "/many" : ""
   const rating = (options.nsfw === true) ? "nsfw" : "sfw"
 
-  const res = await fetch(`${base}${many}/${rating}`, {
+  const res = await fetch(`${base}${many}/${rating}/${endpoint}`, {
     headers: { "Content-type": "application/json" },
     method: isMany ? "POST" : "GET",
     body: isMany ? JSON.stringify({ exclude: options.exclude ?? [] }) : undefined
